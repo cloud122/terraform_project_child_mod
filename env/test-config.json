@@ -1,0 +1,11 @@
+{
+  "Item1": {
+    "Version": {"S": "1"},
+    "username": {"S": "testuser"},
+    "smtpserver": {"S": "testserver"},
+    "smtpuser": {"S": "qewrdsf3fsddsf"},
+    "bucket": {"S": "test-bucket"},
+    "datasource": {"S": "3.3.3.3"},
+    "endpoint": {"S": "2.2.2.2"}    
+  }
+}
