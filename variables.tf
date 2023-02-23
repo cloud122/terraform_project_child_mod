@@ -1,7 +1,7 @@
 variable "ENVIRONMENT" {
-    type = string
-    description = "Name of ENVIRONMENT"
-    default = "test-child" 
+  type        = string
+  description = "Name of ENVIRONMENT"
+  default     = "test"
 }
 
 # variable "common_tags" {
