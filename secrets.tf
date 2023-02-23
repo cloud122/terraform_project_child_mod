@@ -10,7 +10,7 @@ resource "aws_secretsmanager_secret_version" "jenkins_secrets_map" {
                 "username": "testuser",
                 "password": "testpass",
                 "token": "testtoken",
-                "secret": "testsecret"
+                "secret": ""
             }
       EOF
   lifecycle {
