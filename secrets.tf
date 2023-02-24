@@ -18,3 +18,20 @@ resource "aws_secretsmanager_secret_version" "jenkins_secrets_map" {
     ignore_changes = [secret_string]
   }
 }
+
+/*
+aws secretsmanager put-secret-value \
+    --secret-id MyTestSecret \
+    --secret-string file://mycreds.json
+
+Contents of mycreds.json:
+
+{
+    "engine": "mysql",
+    "username": "saanvis",
+    "password": "EXAMPLE-PASSWORD",
+    "host": "my-database-endpoint.us-west-2.rds.amazonaws.com",
+    "dbname": "myDatabase",
+    "port": "3306"
+}
+*/
